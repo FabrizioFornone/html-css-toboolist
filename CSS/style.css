@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 70px;
   background: #ffffff;
 }
 
@@ -27,13 +27,13 @@ h1 {
 
 h1 {
   display: inline-block;
-  font-size: 50px;
+  font-size: 40px;
   padding-left: 10px;
 }
 
 .container-white {
   background-color: #ffffff;
-  height: 750px;
+  height: 600px;
   margin: 30px 200px 10px 200px;
 }
 
@@ -41,15 +41,18 @@ h1 {
 .section {
   display: inline-block;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 8px;
   line-height: 0.6;
+  font-size: 10px;
+  width: 80px;
+  text-align: center;
 }
 
 .add {
   background: rgb(48, 133, 212);
   color: #ffffff;
   margin-right: 5px;
-  margin-left: 50px;
+  margin-left: 70px;
   margin-top: 15px;
 }
 
@@ -67,6 +70,15 @@ hr {
   border: none;
 }
 
+section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
 .ul {
   padding-left: 70px;
   list-style: none;
@@ -75,24 +87,24 @@ hr {
 .black.ul {
   font-weight: bolder;
   font-size: 20px;
-  margin-bottom: 5px;
 }
 
 .normal.ul {
   font-size: 15px;
 }
 
-.arrow-down,
-.check {
+.check,
+.cross {
   margin-right: 10px;
+  font-size: 12px;
 }
 
 .arrow-down {
   font-size: 15px;
+  margin-right: 6px;
 }
 
 .check {
-  font-size: 15px;
   color: rgb(27, 212, 27);
   border: 2px solid rgb(27, 212, 27);
   border-radius: 50%;
@@ -100,11 +112,48 @@ hr {
   font-weight: bold;
 }
 
-.description {
+.cross {
+  color: rgb(167, 18, 18);
+  border: 2px solid rgb(167, 18, 18);
+  border-radius: 50%;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.description,
+.q1-goals,
+.recruiting,
+.mobile,
+.website,
+.sales {
   display: inline-block;
-  background: rgb(48, 133, 212);
   color: #ffffff;
-  padding: 5px 8px;
+  padding: 5px 10px;
   margin-left: 5px;
   border-radius: 10px;
+  font-size: 10px;
+}
+
+.description {
+  background: rgb(48, 133, 212);
+}
+
+.q1-goals {
+  background: rgb(95, 16, 141);
+}
+
+.recruiting {
+  background: rgb(48, 212, 204);
+}
+
+.mobile {
+  background: rgb(226, 158, 12);
+}
+
+.website {
+  background: rgb(160, 96, 197);
+}
+
+.sales {
+  background: rgb(179, 226, 126);
 }
