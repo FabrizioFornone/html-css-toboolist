@@ -49,7 +49,7 @@ h1 {
 }
 
 .add {
-  background: rgb(48, 133, 212);
+  background: rgb(48, 133, 212, 0.8);
   color: #ffffff;
   margin-right: 5px;
   margin-left: 70px;
@@ -135,25 +135,25 @@ li {
 }
 
 .description {
-  background: rgb(48, 133, 212);
+  background: rgb(48, 133, 212, 0.8);
 }
 
 .q1-goals {
-  background: rgb(95, 16, 141);
+  background: rgb(95, 16, 141, 0.8);
 }
 
 .recruiting {
-  background: rgb(48, 212, 204);
+  background: rgb(48, 212, 204, 0.8);
 }
 
 .mobile {
-  background: rgb(226, 158, 12);
+  background: rgb(226, 158, 12, 0.8);
 }
 
 .website {
-  background: rgb(160, 96, 197);
+  background: rgb(160, 96, 197, 0.8);
 }
 
 .sales {
-  background: rgb(179, 226, 126);
+  background: rgb(179, 226, 126, 0.8);
 }
